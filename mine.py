@@ -188,6 +188,9 @@
 # else :
 #     print("Fall into a hole")
 
+
+################ randomization
+
 # import random
 
 # random_integer = random.randint(1,10)
@@ -309,45 +312,46 @@
 #     else:
 #        print(sum)
 
-import random
-print("Welcome to Pypassword Generator!")
-number = ['0','1','2','3','4','5','6','7','8','9']
-symbol = ['!','@','#','$','%','&','*','+','?']
-letter = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-symbols=int(input("how many symbols would you like\n"))
-numbers=int(input("how many numbers would you like\n"))
-letters=int(input("how many letters would you like\n"))
+# import random
+# print("Welcome to Pypassword Generator!")
+# number = ['0','1','2','3','4','5','6','7','8','9']
+# symbol = ['!','@','#','$','%','&','*','+','?']
+# letter = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+# symbols=int(input("how many symbols would you like\n"))
+# numbers=int(input("how many numbers would you like\n"))
+# letters=int(input("how many letters would you like\n"))
 
-#easy level
-# password=""
+# #easy level
+# # password=""
+# # for char in range (1,letters + 1):
+# #     password +=  random.choice(letter)
+
+# # for char in range (1,symbols + 1):
+# #     password +=  random.choice(symbol)
+
+# # for char in range (1,numbers + 1):
+# #     password +=  random.choice(number)
+
+# # print(password)
+
+# #hard level
+# password_list=[]
 # for char in range (1,letters + 1):
-#     password +=  random.choice(letter)
+#     password_list +=  random.choice(letter)
 
 # for char in range (1,symbols + 1):
-#     password +=  random.choice(symbol)
+#     password_list +=  random.choice(symbol)
 
 # for char in range (1,numbers + 1):
-#     password +=  random.choice(number)
+#     password_list +=  random.choice(number)
 
-# print(password)
+# print(password_list)
+# random.shuffle(password_list)
+# print(password_list)
 
-#hard level
-password_list=[]
-for char in range (1,letters + 1):
-    password_list +=  random.choice(letter)
+# password =""
+# for char in password_list:
+#     password += char
 
-for char in range (1,symbols + 1):
-    password_list +=  random.choice(symbol)
+# print(f"your password {password}")
 
-for char in range (1,numbers + 1):
-    password_list +=  random.choice(number)
-
-print(password_list)
-random.shuffle(password_list)
-print(password_list)
-
-password =""
-for char in password_list:
-    password += char
-
-print(f"your password {password}")
