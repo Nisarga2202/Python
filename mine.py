@@ -230,9 +230,8 @@
 # print(f"{row1}\n{row2}\n{row3}\n")
 
 
-
-# # Rock
-# print("""
+# import random
+# rock=("""
 #     _______
 # ---'   ____)
 #       (_____)
@@ -241,8 +240,7 @@
 # ---.__(___)
 # """)
 
-# # Paper
-# print("""
+# paper=("""
 #      _______
 # ---'    ____)____
 #            ______)
@@ -251,8 +249,7 @@
 # ---.__________)
 # """)
 
-# # Scissors
-# print("""
+# scissors=("""
 #     _______
 # ---'   ____)____
 #           ______)
@@ -260,8 +257,21 @@
 #       (____)
 # ---.__(___)
 # """)
-
-
+# get_images= [rock , paper ,scissors]
+# user= int(input("what would like to choose 0 , 1 or 2:\n "))
+# if user >=3 or user<0:
+#     print (" you enterd a invalid ")
+# else:
+#     print(get_images[user])
+#     computer = random.randint(0 , 2)
+#     print("computer choose")
+#     print(computer,get_images[computer])
+#     if user == computer :
+#         print("its draw")
+#     elif user >= computer:
+#         print("you winn")
+#     elif user <= computer:
+#         print("you fail")
 
 #!!!!!!!!!!!!!!!Day 5 (loops , range and code blocks)
 
@@ -312,6 +322,11 @@
 #     else:
 #        print(sum)
 
+
+
+
+
+
 # import random
 # print("Welcome to Pypassword Generator!")
 # number = ['0','1','2','3','4','5','6','7','8','9']
@@ -354,4 +369,7 @@
 #     password += char
 
 # print(f"your password {password}")
+
+
+###!!!!!!!!!!!!!!!!!!!!!! code blocks ,function and code blocks 
 
