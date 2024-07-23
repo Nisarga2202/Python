@@ -373,3 +373,21 @@
 
 ###!!!!!!!!!!!!!!!!!!!!!! code blocks ,function and code blocks 
 
+# from prettytable import PrettyTable
+# table = PrettyTable()
+# table.add_column("pokeman name",["pikachu","sqiurtle","charmandar"])
+# table.add_column("type",["electric","water","fire",])
+# table.align = "l"
+
+# print(table)
+
+
+class Quiz:
+
+
+    def __init__ (self,q_text,q_answer):
+        self.text = q_text
+        self.text = q_answer
+
+new_q= Quiz("sdfsdf","False")
+print(new_q.text)
